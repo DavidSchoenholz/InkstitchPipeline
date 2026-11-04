@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+
+# PyInstaller build artifacts (regenerate with: py -3.12 -m PyInstaller EmbroideryPipeline.spec)
+build/
+dist/
+
+# Local test runs / scratch output
+run*/
+cat_raw.jpg
+cat_nobg.png
