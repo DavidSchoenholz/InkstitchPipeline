@@ -47,7 +47,9 @@ exe = EXE(
     debug=False,
     bootloader_ignore_signals=False,
     strip=False,
-    upx=True,
+    # UPX is known to corrupt onnxruntime/numba DLLs and triggers antivirus
+    # false positives, so leave binaries uncompressed.
+    upx=False,
     upx_exclude=[],
     runtime_tmpdir=None,
     console=False,

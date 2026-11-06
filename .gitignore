@@ -9,3 +9,5 @@ dist/
 run*/
 cat_raw.jpg
 cat_nobg.png
+
+.pytest_cache/

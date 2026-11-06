@@ -1,0 +1,5 @@
+# Core pipeline (CLI + GUI). Python 3.12.
+pillow>=10.1
+numpy>=1.26
+vtracer>=0.6.11
+pyembroidery>=1.5

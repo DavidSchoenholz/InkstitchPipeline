@@ -1,0 +1,6 @@
+# Optional: AI background removal (--remove-bg). rembg downloads its model
+# (~170 MB) on first use into ~/.u2net (override with U2NET_HOME).
+rembg>=2.0.50
+onnxruntime>=1.17
+# Optional: building the standalone .exe
+pyinstaller>=6.3
